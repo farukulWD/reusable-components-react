@@ -1,9 +1,7 @@
+import Main from "./components/layout/Main";
+
 function App() {
-  return (
-    <div>
-      <h1>This Reusable Components</h1>
-    </div>
-  );
+  return <Main></Main>;
 }
 
 export default App;
