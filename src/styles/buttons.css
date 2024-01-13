@@ -1,0 +1,14 @@
+@layer components {
+  .btn-solid {
+    @apply py-2 px-3 font-semibold transition-all rounded-md;
+    @apply bg-purple-500 text-white hover:bg-purple-700 focus:bg-purple-700;
+  }
+  .btn-outline {
+    @apply py-2 px-3 font-semibold transition-all  rounded-md;
+    @apply border border-purple-600 bg-purple-600 bg-opacity-10 text-purple-600 hover:bg-opacity-20 focus:bg-opacity-20;
+  }
+  .btn-ghost {
+    @apply py-2 px-3 font-semibold transition-all text-purple-600  rounded-md;
+    @apply bg-purple-600 bg-opacity-0   hover:bg-opacity-20 focus:bg-opacity-20;
+  }
+}
